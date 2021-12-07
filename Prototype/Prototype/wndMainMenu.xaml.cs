@@ -26,30 +26,35 @@ namespace Prototype
         {
             wndHousehold wnd2 = new wndHousehold();
             wnd2.Show();
+            Close();
         }
 
         private void btnViewReports_Click(object sender, RoutedEventArgs e)
         {
             wndViewReports wnd5 = new wndViewReports();
             wnd5.Show();
+            Close();
         }
 
         private void btnCeremonies_Click(object sender, RoutedEventArgs e)
         {
             wndCeremonies wnd3 = new wndCeremonies();
             wnd3.Show();
+            Close();
         }
 
         private void btnFinancials_Click(object sender, RoutedEventArgs e)
         {
             wndMainMenu wnd4 = new wndMainMenu();
             wnd4.Show();
+            Close();
         }
 
         private void btnLogout_Click(object sender, RoutedEventArgs e)
         {
             MainWindow wnd0 = new MainWindow();
             wnd0.Show();
+            Close();
         }
 
         private void btnExit_Click(object sender, RoutedEventArgs e)

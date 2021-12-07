@@ -33,9 +33,10 @@ namespace Prototype
                 return;
             }
             else
-            {
+            {   
                 wndMainMenu wnd1 = new wndMainMenu();
                 wnd1.Show();
+                Close();
             }
         }
 
