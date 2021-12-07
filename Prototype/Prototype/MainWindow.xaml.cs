@@ -25,5 +25,20 @@ namespace Prototype
             InitializeComponent();
             //comment: can you see this
         }
+
+        private void btnEnter_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtUserName.Text) || string.IsNullOrWhiteSpace(txtPassword.Text) == true)
+            {
+                MessageBox.Show("Incorrect username or password", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+            else
+            {
+                wndMainMenu wnd = new wndInfo();
+                wnd.Show();
+                wnd.SetupWindow(chosen);
+            }
+        }
     }
 }
