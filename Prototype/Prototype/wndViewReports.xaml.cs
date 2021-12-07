@@ -31,14 +31,12 @@ namespace Prototype
         {
             MainWindow wnd0 = new MainWindow();
             wnd0.Show();
-            Close();
         }
 
         private void btnHome_Click(object sender, RoutedEventArgs e)
         {
             wndMainMenu wnd1 = new wndMainMenu();
             wnd1.Show();
-            Close();
         }
         private void fillCeremonyReports()
         {

@@ -61,5 +61,16 @@ namespace Prototype
         {
             Environment.Exit(-1);
         }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow wnd0 = new MainWindow();
+            wnd0.Show();
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(-1);
+        }
     }
 }
