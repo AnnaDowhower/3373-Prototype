@@ -35,9 +35,8 @@ namespace Prototype
             }
             else
             {
-                wndMainMenu wnd = new wndInfo();
-                wnd.Show();
-                wnd.SetupWindow(chosen);
+                wndMainMenu wnd1 = new wndMainMenu();
+                wnd1.Show();
             }
         }
     }
