@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Prototype"
         mc:Ignorable="d"
         Title="wndViewHouseholdInfo" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFBCBEBF">
+        <TextBox HorizontalAlignment="Left" Margin="125,127,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="28"/>
+        <ListBox Margin="33,190,400,37" SelectionChanged="ListBox_SelectionChanged"/>
+        <Label Content="Enter the last name of the household: " HorizontalAlignment="Left" Margin="33,73,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <ListBox Margin="442,85,40,0" Height="312" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
