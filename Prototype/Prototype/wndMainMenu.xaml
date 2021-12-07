@@ -12,5 +12,7 @@
         <Button x:Name="btnCeremonies" Content="Ceremonies" HorizontalAlignment="Left" Margin="201,277,0,0" VerticalAlignment="Top" FontSize="22" Width="165" Height="62" Click="btnCeremonies_Click"/>
         <Button x:Name="btnFinancials" Content="Financials" HorizontalAlignment="Left" Margin="436,277,0,0" VerticalAlignment="Top" FontSize="22" Width="166" Height="62" Click="btnFinancials_Click"/>
         <Button x:Name="btnViewReports" Content="View Reports" HorizontalAlignment="Left" Margin="436,177,0,0" VerticalAlignment="Top" FontSize="22" Width="166" Height="62" Click="btnViewReports_Click"/>
+        <Button x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="156,32,0,0" VerticalAlignment="Top" Height="30" Width="83" Click="btnLogout_Click"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="32,32,0,0" VerticalAlignment="Top" Height="30" Width="83" Click="btnExit_Click"/>
     </Grid>
 </Window>

@@ -29,7 +29,7 @@ namespace Prototype
         {
             if (string.IsNullOrWhiteSpace(txtUserName.Text) || string.IsNullOrWhiteSpace(txtPassword.Text) == true)
             {
-                MessageBox.Show("Incorrect username or password", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Incorrect username or password (type anything in the boxes)", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
             else
@@ -37,6 +37,11 @@ namespace Prototype
                 wndMainMenu wnd1 = new wndMainMenu();
                 wnd1.Show();
             }
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(-1);
         }
     }
 }
