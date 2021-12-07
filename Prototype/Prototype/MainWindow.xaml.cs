@@ -23,7 +23,6 @@ namespace Prototype
         public MainWindow()
         {
             InitializeComponent();
-            //comment: can you see this
         }
 
         private void btnEnter_Click(object sender, RoutedEventArgs e)
