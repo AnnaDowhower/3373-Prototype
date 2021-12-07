@@ -45,5 +45,16 @@ namespace Prototype
             wndMainMenu wnd4 = new wndMainMenu();
             wnd4.Show();
         }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow wnd0 = new MainWindow();
+            wnd0.Show();
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(-1);
+        }
     }
 }
