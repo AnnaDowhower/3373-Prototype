@@ -23,6 +23,7 @@ namespace Prototype
         public MainWindow()
         {
             InitializeComponent();
+            //comment: can you see this
         }
     }
 }
