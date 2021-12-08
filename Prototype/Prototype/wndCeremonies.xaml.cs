@@ -21,5 +21,29 @@ namespace Prototype
         {
             InitializeComponent();
         }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow wnd0 = new MainWindow();
+            wnd0.Show();
+            Close();
+        }
+
+        private void btnHome_Click(object sender, RoutedEventArgs e)
+        {
+            wndMainMenu wnd93 = new wndMainMenu();
+            wnd93.Show();
+            Close();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

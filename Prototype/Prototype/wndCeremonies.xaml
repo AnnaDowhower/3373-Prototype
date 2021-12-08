@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="wndCeremonies" Height="450" Width="800"
         Left="250" Top="250">
-    <Grid>
-        
+    <Grid Background="#FFBCBEBF">
+        <Button Content="Add Ceremony" HorizontalAlignment="Left" Margin="116,0,0,0" VerticalAlignment="Center" Height="70" Width="182" FontSize="22" Click="Button_Click"/>
+        <Button Content="View Upcoming Ceremonies" Margin="398,0,71,0" VerticalAlignment="Center" Height="70" FontSize="22" Click="Button_Click_1"/>
+        <Button x:Name="btnHome" Content="Home" HorizontalAlignment="Left" Margin="163,37,0,0" VerticalAlignment="Top" Height="30" Width="83" Click="btnHome_Click"/>
+        <Button x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="39,37,0,0" VerticalAlignment="Top" Height="30" Width="83" Click="btnLogout_Click"/>
+
     </Grid>
 </Window>
