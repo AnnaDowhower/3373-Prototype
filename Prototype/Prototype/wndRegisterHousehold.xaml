@@ -6,8 +6,33 @@
         xmlns:local="clr-namespace:Prototype"
         mc:Ignorable="d"
         Title="wndRegisterHousehold" Height="450" Width="800">
-    <Grid>
-        <Button x:Name="btnAddMember" Content="Add member" HorizontalAlignment="Left" Margin="400,173,0,0" VerticalAlignment="Top" Click="btnAddMember_Click"/>
+    <Grid Background="#FFBCBEBF">
+        <Button x:Name="btnAddMember" Content="Add member" HorizontalAlignment="Left" Margin="503,0,0,0" VerticalAlignment="Center" Click="btnAddMember_Click" Height="56" Width="148" FontSize="20
+                " RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.898"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label Content="Last Name: " HorizontalAlignment="Left" Margin="50,139,0,0" VerticalAlignment="Top" Height="34" Width="96" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,144,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="50,0,0,295" VerticalAlignment="Bottom" Height="35" Width="90" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,0,0,302"  TextWrapping="Wrap" VerticalAlignment="Bottom" Width="160" Height="24"/>
+        <Label Content="Register Household" HorizontalAlignment="Left" Margin="47,30,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label Content="Street Number:" HorizontalAlignment="Left" Margin="50,175,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.716,-0.06" Height="35" Width="121" FontSize="15"/>
+        <Label Content="Street Name:" HorizontalAlignment="Left" Margin="50,212,0,0" VerticalAlignment="Top" Height="33" Width="118" FontSize="15"/>
+        <Label Content="City: " HorizontalAlignment="Left" Margin="50,248,0,0" VerticalAlignment="Top" Height="35" Width="48" FontSize="15"/>
+        <Label Content="State: " HorizontalAlignment="Left" Margin="50,282,0,0" VerticalAlignment="Top" Height="34" Width="57" FontSize="15"/>
+        <Label Content="Zipcode: " HorizontalAlignment="Left" Margin="50,314,0,0" VerticalAlignment="Top" Height="35" Width="78" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,216,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,180,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,287,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,253,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,320,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
 
     </Grid>
 </Window>
