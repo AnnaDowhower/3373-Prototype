@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prototype"
         mc:Ignorable="d"
-        Title="wndViewHouseholdInfo" Height="450" Width="800">
+        Title="wndViewHouseholdInfo" Height="450" Width="800"
+        Left="250" Top="250">
     <Grid Background="#FFBCBEBF">
-        <TextBox x:Name="nameHouse" HorizontalAlignment="Center" Margin="0,103,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="28" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="nameHouse" HorizontalAlignment="Center" Margin="0,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" Height="28" TextChanged="TextBox_TextChanged"/>
         <ListBox x:Name="lstHouse" Margin="100,190,100,37" />
         <Label Content="Enter the last name of the household: " HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" FontSize="20"/>
         <Label Content="Household details:&#xD;&#xA; " HorizontalAlignment="Center" Margin="0,152,0,0" VerticalAlignment="Top" FontSize="20"/>
-
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" Margin="39,37,0,0" VerticalAlignment="Top" Height="30" Width="83" Click="btnBack_Click"/>
     </Grid>
 </Window>

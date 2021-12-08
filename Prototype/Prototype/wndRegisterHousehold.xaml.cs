@@ -27,5 +27,12 @@ namespace Prototype
             wndAddMember wnd211 = new wndAddMember();
             wnd211.Show();
         }
+
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+            wndHousehold wnd1 = new wndHousehold();
+            wnd1.Show();
+            Close();
+        }
     }
 }

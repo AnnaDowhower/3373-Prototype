@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prototype"
         mc:Ignorable="d"
-        Title="Household" Height="450" Width="800">
+        Title="Household" Height="450" Width="800"
+        Left="250" Top="250">
     <Grid Background="#FFBCBEBF">
         <Button x:Name="btnRegisterHousehold" Content="Register Household" HorizontalAlignment="Left" Margin="130,173,0,0" VerticalAlignment="Top" Click="btnRegisterHousehold_Click" Height="70" Width="214" FontSize="22"/>
-        <Button x:Name="btnViewHouseholdInfo" Content="View Household Info" Margin="438,173,130,0" VerticalAlignment="Top" Click="btnViewHouseholdInfo_Click" Height="70" FontSize="22" RenderTransformOrigin="0.495,0.633"
-                />
-
+        <Button x:Name="btnViewHouseholdInfo" Content="View Household Info" Margin="438,173,130,0" VerticalAlignment="Top" Click="btnViewHouseholdInfo_Click" Height="70" FontSize="22" RenderTransformOrigin="0.495,0.633"/>
+        <Button x:Name="btnHome" Content="Home" HorizontalAlignment="Left" Margin="163,37,0,0" VerticalAlignment="Top" Height="30" Width="83" Click="btnHome_Click"/>
+        <Button x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="39,37,0,0" VerticalAlignment="Top" Height="30" Width="83" Click="btnLogout_Click"/>
     </Grid>
 </Window>

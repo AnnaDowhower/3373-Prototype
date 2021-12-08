@@ -22,16 +22,31 @@ namespace Prototype
             InitializeComponent();
         }
 
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow wnd0 = new MainWindow();
+            wnd0.Show();
+            Close();
+        }
+
+        private void btnHome_Click(object sender, RoutedEventArgs e)
+        {
+            wndMainMenu wnd93 = new wndMainMenu();
+            wnd93.Show();
+            Close();
+        }
         private void btnRegisterHousehold_Click(object sender, RoutedEventArgs e)
         {
-            wndRegisterHousehold wnd21 = new wndRegisterHousehold();
-            wnd21.Show();
+            wndRegisterHousehold wnd40 = new wndRegisterHousehold();
+            wnd40.Show();
+            Close();
         }
 
         private void btnViewHouseholdInfo_Click(object sender, RoutedEventArgs e)
         {
-            wndViewHouseholdInfo wnd22 = new wndViewHouseholdInfo();
-            wnd22.Show();
+            wndViewHouseholdInfo wnd09 = new wndViewHouseholdInfo();
+            wnd09.Show();
+            Close();
         }
     }
 }

@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prototype"
         mc:Ignorable="d"
-        Title="wndMainMenu" Height="450" Width="800">
+        Title="wndMainMenu" Height="450" Width="800"
+        Left="250" Top="250">
     <Grid Background="#FFBCBEBF">
         <Label Content="Home" HorizontalAlignment="Center" Margin="0,79,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
         <Button x:Name="btnHousehold" Content="Households" HorizontalAlignment="Left" Margin="201,177,0,0" VerticalAlignment="Top" FontSize="22" Width="165" Height="62" Click="btnHousehold_Click"/>

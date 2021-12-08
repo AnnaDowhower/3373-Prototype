@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prototype"
         mc:Ignorable="d"
-        Title="wndCeremonies" Height="450" Width="800">
+        Title="wndCeremonies" Height="450" Width="800"
+        Left="250" Top="250">
     <Grid>
         
     </Grid>
