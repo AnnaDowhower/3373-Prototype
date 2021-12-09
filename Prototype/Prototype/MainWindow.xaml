@@ -12,7 +12,7 @@
         <Label Content="Username:" HorizontalAlignment="Left" Margin="237,161,0,0" VerticalAlignment="Top" FontSize="18"/>
         <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="357,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191" Height="26"/>
         <Label Content="Password:" HorizontalAlignment="Left" Margin="237,217,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <Label Content="Rejoice Church Login" HorizontalAlignment="Center" Margin="0,71,0,0" VerticalAlignment="Top" FontSize="26" FontWeight="Bold" />
+        <Label Content="Rejoice Church Employee Login" HorizontalAlignment="Center" Margin="0,71,0,0" VerticalAlignment="Top" FontSize="26" FontWeight="Bold" />
         <Button x:Name="btnEnter" Content="Enter" HorizontalAlignment="Center" Margin="0,308,0,0" VerticalAlignment="Top" FontSize="18" Width="143" Click="btnEnter_Click" IsDefault="True" Height="39"/>
         <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="57,43,0,0" VerticalAlignment="Top" Height="35" Width="111" FontSize="18" Click="btnExit_Click"/>
 
