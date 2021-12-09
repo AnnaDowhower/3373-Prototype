@@ -21,16 +21,12 @@
         <TextBox HorizontalAlignment="Left" Margin="238,259,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Bride Last Name: " HorizontalAlignment="Left" Margin="80,290,0,0" VerticalAlignment="Top" FontSize="18"/>
         <TextBox HorizontalAlignment="Left" Margin="238,298,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Bride First Name: " HorizontalAlignment="Left" Margin="448,134,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="624,142,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Bride Last Name: " HorizontalAlignment="Left" Margin="448,173,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="624,181,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Groom First Name: " HorizontalAlignment="Left" Margin="448,210,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="624,218,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Groom Last Name: " HorizontalAlignment="Left" Margin="448,248,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="624,256,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Class Complete?" HorizontalAlignment="Left" Margin="448,288,0,0" VerticalAlignment="Top" FontSize="18                "/>
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="619,297,0,0" VerticalAlignment="Top"/>
+        <Label Content="Groom First Name: " HorizontalAlignment="Left" Margin="448,132,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Margin="624,140,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Groom Last Name: " HorizontalAlignment="Left" Margin="448,170,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Margin="624,178,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Class Complete?" HorizontalAlignment="Left" Margin="448,210,0,0" VerticalAlignment="Top" FontSize="18                "/>
+        <CheckBox Content="" HorizontalAlignment="Left" Margin="619,219,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnWdg" Content="Submit Wedding Info" HorizontalAlignment="Left" Margin="301,342,0,0" VerticalAlignment="Top" FontSize="18" Height="70" Width="184" />
 
     </Grid>

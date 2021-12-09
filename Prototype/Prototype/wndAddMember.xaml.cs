@@ -48,6 +48,14 @@ namespace Prototype
             Close();
         }
 
-        
+        private void btnAddMember_Copy_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnAddMember_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

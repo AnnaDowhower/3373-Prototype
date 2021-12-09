@@ -24,7 +24,7 @@ namespace Prototype
 
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
-            wndAddCeremony wnd1 = new wndAddCeremony();
+            wndCeremonies wnd1 = new wndCeremonies();
             wnd1.Show();
             Close();
         }
