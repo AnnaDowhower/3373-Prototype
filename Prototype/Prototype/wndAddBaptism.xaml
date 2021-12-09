@@ -12,23 +12,23 @@
         <Button x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="658,37,0,0" VerticalAlignment="Top" Height="30" Width="83" Click="btnLogout_Click"/>
         <Label Content="Baptism Details" HorizontalAlignment="Center" Margin="0,38,0,0" VerticalAlignment="Top" FontSize="22"/>
         <Label Content="Baptism Date: " HorizontalAlignment="Left" Margin="80,136,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="238,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="238,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Baptism Time: " HorizontalAlignment="Left" Margin="80,169,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="238,177,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Reverend: " HorizontalAlignment="Left" Margin="80,0,0,0" VerticalAlignment="Center" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="238,210,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="238,181,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Reverend: " HorizontalAlignment="Left" Margin="80,204,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Margin="238,216,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="First Name: " HorizontalAlignment="Left" Margin="80,235,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="238,243,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="238,247,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Last Name: " HorizontalAlignment="Left" Margin="80,268,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="238,276,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="238,280,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Sponsor 1 - First Name: " HorizontalAlignment="Left" Margin="422,136,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="640,144,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="640,148,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Sponsor 1 - Last Name: " HorizontalAlignment="Left" Margin="422,169,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="640,177,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="640,181,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Sponsor 2 - First Name: " HorizontalAlignment="Left" Margin="422,198,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="640,206,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="640,210,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Sponsor 2 - Last Name: " HorizontalAlignment="Left" Margin="422,230,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox HorizontalAlignment="Left" Margin="640,238,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="640,242,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="Class Complete?" HorizontalAlignment="Left" Margin="426,278,0,0" VerticalAlignment="Top" FontSize="18
                "/>
         <CheckBox Content="" HorizontalAlignment="Left" Margin="597,287,0,0" VerticalAlignment="Top"/>
