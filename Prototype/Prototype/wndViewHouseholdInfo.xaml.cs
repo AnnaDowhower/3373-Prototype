@@ -55,5 +55,12 @@ namespace Prototype
             wnd1.Show();
             Close();
         }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow wnd0 = new MainWindow();
+            wnd0.Show();
+            Close();
+        }
     }
 }

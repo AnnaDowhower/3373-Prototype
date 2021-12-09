@@ -21,5 +21,33 @@ namespace Prototype
         {
             InitializeComponent();
         }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+            wndRegisterHousehold wnd1 = new wndRegisterHousehold();
+            wnd1.Show();
+            Close();
+        }
+
+        private void btnHome_Click(object sender, RoutedEventArgs e)
+        {
+            wndMainMenu wnd1 = new wndMainMenu();
+            wnd1.Show();
+            Close();
+        }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow wnd0 = new MainWindow();
+            wnd0.Show();
+            Close();
+        }
+
+        
     }
 }

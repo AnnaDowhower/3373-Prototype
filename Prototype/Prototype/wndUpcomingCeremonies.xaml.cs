@@ -13,13 +13,20 @@ using System.Windows.Shapes;
 namespace Prototype
 {
     /// <summary>
-    /// Interaction logic for wndCeremonies.xaml
+    /// Interaction logic for wndUpcomingCeremonies.xaml
     /// </summary>
-    public partial class wndCeremonies : Window
+    public partial class wndUpcomingCeremonies : Window
     {
-        public wndCeremonies()
+        public wndUpcomingCeremonies()
         {
             InitializeComponent();
+        }
+
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+            wndAddCeremony wnd1 = new wndAddCeremony();
+            wnd1.Show();
+            Close();
         }
 
         private void btnLogout_Click(object sender, RoutedEventArgs e)
@@ -35,21 +42,5 @@ namespace Prototype
             wnd93.Show();
             Close();
         }
-
-        private void Button_Click (object sender, RoutedEventArgs e)
-        {
-            wndAddCeremony wnd1 = new wndAddCeremony();
-            wnd1.Show();
-            Close();
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            wndUpcomingCeremonies wnd2 = new wndUpcomingCeremonies();
-            wnd2.Show();
-            Close();
-        }
-
-       
     }
 }

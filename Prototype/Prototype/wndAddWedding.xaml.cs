@@ -13,24 +13,18 @@ using System.Windows.Shapes;
 namespace Prototype
 {
     /// <summary>
-    /// Interaction logic for wndRegisterHousehold.xaml
+    /// Interaction logic for wndAddWedding.xaml
     /// </summary>
-    public partial class wndRegisterHousehold : Window
+    public partial class wndAddWedding : Window
     {
-        public wndRegisterHousehold()
+        public wndAddWedding()
         {
             InitializeComponent();
         }
 
-        private void btnAddMember_Click(object sender, RoutedEventArgs e)
-        {
-            wndAddMember wnd211 = new wndAddMember();
-            wnd211.Show();
-        }
-
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
-            wndHousehold wnd1 = new wndHousehold();
+            wndAddCeremony wnd1 = new wndAddCeremony();
             wnd1.Show();
             Close();
         }
@@ -48,5 +42,7 @@ namespace Prototype
             wnd0.Show();
             Close();
         }
+
+        
     }
 }

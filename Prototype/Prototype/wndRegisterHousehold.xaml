@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Prototype"
         mc:Ignorable="d"
-        Title="wndRegisterHousehold" Height="450" Width="800"
+        Title="Register Household" Height="450" Width="800"
         Left="250" Top="250">
     <Grid Background="#FFBCBEBF">
         <Button x:Name="btnAddMember" Content="Add member" HorizontalAlignment="Left" Margin="503,213,0,0" VerticalAlignment="Top" Click="btnAddMember_Click" Height="56" Width="148" FontSize="20
@@ -19,22 +19,19 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Label Content="Last Name: " HorizontalAlignment="Left" Margin="50,163,0,0" VerticalAlignment="Top" Height="34" Width="96" FontSize="15"/>
-        <TextBox HorizontalAlignment="Left" Margin="220,168,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
-        <Label Content="First Name" HorizontalAlignment="Left" Margin="50,0,0,267" VerticalAlignment="Bottom" Height="35" Width="90" FontSize="15"/>
-        <TextBox HorizontalAlignment="Left" Margin="220,0,0,274"  TextWrapping="Wrap" VerticalAlignment="Bottom" Width="160" Height="24"/>
         <Label Content="Register Household" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="25"/>
-        <Label Content="Street Number:" HorizontalAlignment="Left" Margin="50,198,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.716,-0.06" Height="35" Width="121" FontSize="15"/>
-        <Label Content="Street Name:" HorizontalAlignment="Left" Margin="50,232,0,0" VerticalAlignment="Top" Height="33" Width="118" FontSize="15"/>
-        <Label Content="City: " HorizontalAlignment="Left" Margin="50,266,0,0" VerticalAlignment="Top" Height="35" Width="48" FontSize="15"/>
-        <Label Content="State: " HorizontalAlignment="Left" Margin="50,300,0,0" VerticalAlignment="Top" Height="34" Width="57" FontSize="15"/>
-        <Label Content="Zipcode: " HorizontalAlignment="Left" Margin="50,332,0,0" VerticalAlignment="Top" Height="35" Width="78" FontSize="15"/>
-        <TextBox HorizontalAlignment="Left" Margin="220,236,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
-        <TextBox HorizontalAlignment="Left" Margin="220,201,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
-        <TextBox HorizontalAlignment="Left" Margin="220,305,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
-        <TextBox HorizontalAlignment="Left" Margin="220,271,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
-        <TextBox HorizontalAlignment="Left" Margin="220,338,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
+        <Label Content="Street Number:" HorizontalAlignment="Left" Margin="50,158,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.716,-0.06" Height="35" Width="121" FontSize="15"/>
+        <Label Content="Street Name:" HorizontalAlignment="Left" Margin="50,193,0,0" VerticalAlignment="Top" Height="33" Width="118" FontSize="15"/>
+        <Label Content="City: " HorizontalAlignment="Left" Margin="50,226,0,0" VerticalAlignment="Top" Height="35" Width="48" FontSize="15"/>
+        <Label Content="State: " HorizontalAlignment="Left" Margin="50,260,0,0" VerticalAlignment="Top" Height="34" Width="57" FontSize="15"/>
+        <Label Content="Zipcode: " HorizontalAlignment="Left" Margin="50,292,0,0" VerticalAlignment="Top" Height="35" Width="78" FontSize="15"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,195,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,161,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,265,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,231,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,298,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Height="24"/>
         <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" Margin="39,37,0,0" VerticalAlignment="Top" Height="30" Width="83" Click="btnBack_Click"/>
         <Button x:Name="btnHome" Content="Home" HorizontalAlignment="Left" Margin="163,37,0,0" VerticalAlignment="Top" Height="30" Width="83" Click="btnHome_Click"/>
+        <Button x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="658,37,0,0" VerticalAlignment="Top" Height="30" Width="83" Click="btnLogout_Click"/>
     </Grid>
 </Window>
